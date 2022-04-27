@@ -145,13 +145,6 @@ def isModeSelectScreen(screen):
     return len(positions) > 0
 
 
-def isModeSelectScreen(screen):
-    positions = helper.getImagePositions(
-        'boss-fight-mode-icon.png', 0.7, screen)
-
-    return len(positions) > 0
-
-
 def isBossHuntStageSelect(screen):
     positions = helper.getImagePositions('boss-hunt-map.png', 0.7, screen)
 
